@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+body
+{
+    background-color: #20209A;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+}
+
+header
+{
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-left: 35px;
+
+    grid-area: header;
+}
+
+header span
+{
+    font-weight: 700;  
+}
+
+form
+{
+    margin-top: 25px;
+    margin-left: 35px;
+    grid-area: form;
+}
+
+
+ul
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    list-style: none;
+}
+
+li :hover
+{
+    cursor: pointer;
+}
+
+input
+{
+ 
+    padding: 15px;
+    width: 680px;
+    border-radius: 8px;
+    border:1px solid #ffffff;
+
+    background: none;
+
+    color: #ffffff;
+
+    font-size:20px;
+
+}
+
+button
+{
+    background: none;
+    border: none;
+    margin-right:10px;
+}
+
+img
+{
+    max-width: 180px;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 10vh 10vh;
+    grid-template-areas: "header livro"
+                         "form livro"
+                         "pesquisa-livros livro";
+}
+
+.pesquisa-livros
+{
+    background-color: #20209A;
+    height: 460px;
+    overflow-y: auto;
+    margin-top: 40px;
+    margin-left: 70px;
+
+    grid-area: pesquisa-livros;
+}
+
+.pesquisa-livros img
+{
+    float: left;
+    border-radius: 8px;
+}
+
+.livro
+{
+    background-color: #ffffff;
+    color: black;
+    width: 500px;
+    height: 570px;
+    overflow-y: auto;
+    border-radius: 15px;
+
+    margin: 8px;
+    
+    padding: 22px;
+
+    grid-area: livro;
+}
+
+.livro img
+{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 5px 10px 8px #BDBDBD;
+}
+
+.informacoes
+{
+    color: #8484B0;
+    font-size: 15px;
+
+}
+
+.descricao
+{
+    clear: both;
+    color: #090962;
+    font-size: 15px;
+}
+
+.titulo
+{
+    color: #090962;
+    font-weight: 700;  
+}
+
