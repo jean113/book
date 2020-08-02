@@ -15,7 +15,6 @@ O projeto não teve dificuldades, mas, um desafio interessante para se mencionar
 </p>
 
 <p>
-<p>
 Este aplicativo está disponível no GitHub: https://github.com/jean113/book
 </p>
 
@@ -32,6 +31,14 @@ Este aplicativo está disponível no GitHub: https://github.com/jean113/book
 
 <hr/>
 
+<p>
+
+<b>Preview</b></br>
+<img src = "https://github.com/jean113/book/blob/master/frontend/src/assets/apresentacao.gif" />
+
+</p>
+
+<hr/>
 
 <p>
 <b>Requisitos:</b><br/>
